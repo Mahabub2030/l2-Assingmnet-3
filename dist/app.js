@@ -7,7 +7,7 @@ const express_1 = __importDefault(require("express"));
 // const express = require("express");
 const app = (0, express_1.default)();
 app.get("/", (req, res) => {
-    res.send("hello from server !!!");
+    res.send("hello from server");
 });
 app.get("/books", (req, res) => {
     res.send("hello from server");

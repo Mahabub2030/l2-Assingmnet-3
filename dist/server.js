@@ -14,7 +14,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const app_1 = __importDefault(require("./app"));
 let server;
-const port = 8000;
+const port = 9000;
 const boostrap = () => __awaiter(void 0, void 0, void 0, function* () {
     app_1.default.listen(port, () => {
         console.log(`libiry app listening on port ${port}`);
