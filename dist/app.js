@@ -6,10 +6,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 // const express = require("express");
 const app = (0, express_1.default)();
-const port = 8000;
 app.get("/", (req, res) => {
+    res.send("hello from server !!!");
+});
+app.get("/books", (req, res) => {
     res.send("hello from server");
 });
-app.listen(port, () => {
-    console.log(`libiry app listening on port ${port}`);
+app.post("/books/createBooks", (req, res) => {
+    res.send("hello from server");
 });
+exports.default = app;
