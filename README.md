@@ -28,6 +28,7 @@ A full-featured RESTful API for managing books and borrowing in a library, built
 ---
 
 ## 📁 Project Structure
+```bash
 📂 src
 ├── 📄 app.ts
 ├── 📄 server.ts
